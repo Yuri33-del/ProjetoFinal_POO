@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 class ItemExposicao(ABC):
-    def __init__(self, titulo, ano):
+    def __init__(self, titulo, ano, ):
         self.__titulo = titulo
         self.__ano = ano
 
